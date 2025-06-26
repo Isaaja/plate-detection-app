@@ -3,6 +3,7 @@ from PIL import Image
 from ultralytics import YOLO
 import tempfile
 import time
+from datetime import datetime
 
 st.set_page_config(page_title="Klasifikasi Plat Nomor YOLO", layout="centered")
 @st.cache_resource
@@ -26,7 +27,10 @@ def classify_plate_yolo(image):
         conf = float(box.conf[0])
         label = names[class_id]
 
-        result_img = results[0].plot()  
+        result_img = results[0].plot() 
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        result_path = f"results/detected_{timestamp}.jpg"
+        Image.fromarray(result_img).save(result_path) 
         return label, conf, result_img
     else:
         return None, None, None
@@ -48,6 +52,7 @@ if uploaded_file is not None:
         if label:
             st.success("✅ Plat Nomor Terdeteksi!")
             st.image(result_img, caption=f"Hasil Deteksi: {label} ({confidence*100:.2f}%)", use_column_width=True)
+
             st.markdown(f"**Label:** `{label}`")
             st.markdown(f"**Confidence:** `{confidence*100:.2f}%`")
         else:

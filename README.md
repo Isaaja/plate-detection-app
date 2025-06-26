@@ -1,7 +1,3 @@
-Berikut adalah contoh isi `README.md` untuk project **Streamlit Klasifikasi Plat Nomor menggunakan YOLOv8**:
-
----
-
 ````markdown
 # 🚘 Klasifikasi Plat Nomor dengan YOLOv8 + Streamlit
 
@@ -33,6 +29,7 @@ Proyek ini adalah aplikasi web sederhana menggunakan **Streamlit** yang memungki
 ```bash
 git clone https://github.com/username/klasifikasi-plat-streamlit.git
 cd klasifikasi-plat-streamlit
+```
 ````
 
 2. Install dependencies
@@ -68,18 +65,18 @@ streamlit run app.py
 
 ## 📸 Contoh Hasil
 
-| Upload                        | Output Deteksi                   |
-| ----------------------------- | -------------------------------- |
-| ![](assets/upload_sample.jpg) | ![](assets/detection_result.jpg) |
+| Upload                  | Output Deteksi                           |
+| ----------------------- | ---------------------------------------- |
+| ![](photo/sample-2.jpg) | ![](result/detected_20250626_192539.jpg) |
 
-> Gambar di atas hanya ilustrasi. Tambahkan folder `assets/` jika ingin menyimpan contoh output.
+> Gambar di atas hanya ilustrasi. Tambahkan folder `photo/` jika ingin menyimpan contoh output.
 
 ---
 
 ## 📌 Catatan
 
-* Pastikan file model YOLO (`best.pt`) adalah hasil training untuk klasifikasi/deteksi plat nomor.
-* Anda bisa mengadaptasi kode untuk melakukan **crop**, **OCR**, atau menyimpan hasil deteksi.
+- Pastikan file model YOLO (`best.pt`) adalah hasil training untuk klasifikasi/deteksi plat nomor.
+- Anda bisa mengadaptasi kode untuk melakukan **crop**, **OCR**, atau menyimpan hasil deteksi.
 
 ---
 
@@ -87,13 +84,7 @@ streamlit run app.py
 
 Jika ada pertanyaan, silakan hubungi:
 
-* 📧 Email: [your\_email@example.com](mailto:your_email@example.com)
-* 🧑 GitHub: [@username](https://github.com/username)
+- 📧 Email: [isaiantmaulana2004@example.com](mailto:isaiantmaulana2004@example.com)
+- 🧑 GitHub: [@isaaja](https://github.com/isaaja)
 
 ---
-
-## 📝 Lisensi
-
-Proyek ini berada di bawah lisensi MIT. Silakan digunakan untuk keperluan edukasi dan riset.
-
-```
