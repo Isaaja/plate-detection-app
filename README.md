@@ -86,6 +86,3 @@ Jika ada pertanyaan, silakan hubungi:
 
 - 📧 Email: [isaiantmaulana2004@example.com](mailto:isaiantmaulana2004@example.com)
 - 🧑 GitHub: [@isaaja](https://github.com/isaaja)
-
----
-````
