@@ -1,4 +1,3 @@
-````markdown
 # 🚘 Klasifikasi Plat Nomor dengan YOLOv8 + Streamlit
 
 Proyek ini adalah aplikasi web sederhana menggunakan **Streamlit** yang memungkinkan pengguna untuk mengunggah gambar plat nomor kendaraan dan mengklasifikasikannya menggunakan model **YOLOv8**.
@@ -30,6 +29,7 @@ Proyek ini adalah aplikasi web sederhana menggunakan **Streamlit** yang memungki
 git clone https://github.com/username/klasifikasi-plat-streamlit.git
 cd klasifikasi-plat-streamlit
 ```
+
 ````
 
 2. Install dependencies
@@ -67,7 +67,7 @@ streamlit run app.py
 
 | Upload                  | Output Deteksi                           |
 | ----------------------- | ---------------------------------------- |
-| ![](photo/sample-2.jpg) | ![](result/detected_20250626_192539.jpg) |
+| ![](photo/sample-2.jpg) | ![](results/detected_20250626_192539.jpg) |
 
 > Gambar di atas hanya ilustrasi. Tambahkan folder `photo/` jika ingin menyimpan contoh output.
 
@@ -88,3 +88,4 @@ Jika ada pertanyaan, silakan hubungi:
 - 🧑 GitHub: [@isaaja](https://github.com/isaaja)
 
 ---
+````
