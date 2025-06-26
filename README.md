@@ -30,7 +30,7 @@ git clone https://github.com/username/klasifikasi-plat-streamlit.git
 cd klasifikasi-plat-streamlit
 ```
 
-````
+
 
 2. Install dependencies
 
