@@ -1,6 +1,6 @@
-streamlit
-ultralytics
-PIL
+PIL==10.2.0
 datetime
-time
+streamlit==1.41.0
 tempfile
+time
+ultralytics==8.3.112
