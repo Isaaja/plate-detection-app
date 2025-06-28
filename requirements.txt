@@ -1,4 +1,4 @@
-Pillow==10.2.0
+Pillow
 datetime
-streamlit==1.41.0
-ultralytics==8.3.112
+streamlit
+ultralytics
