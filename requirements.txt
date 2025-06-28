@@ -1,6 +1,4 @@
-PIL==10.2.0
+Pillow==10.2.0
 datetime
 streamlit==1.41.0
-tempfile
-time
 ultralytics==8.3.112
