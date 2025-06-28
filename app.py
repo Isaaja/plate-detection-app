@@ -5,7 +5,7 @@ import tempfile
 import time
 from datetime import datetime
 
-st.set_page_config(page_title="Klasifikasi Plat Nomor YOLO", layout="centered")
+st.set_page_config(page_title="Klasifikasi Plat Nomor YOLO", layout="centered", page_icon=":car:")
 @st.cache_resource
 def load_model():
     model = YOLO("./model/best.pt")  

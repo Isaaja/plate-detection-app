@@ -1,0 +1,6 @@
+streamlit
+ultralytics
+PIL
+datetime
+time
+tempfile
